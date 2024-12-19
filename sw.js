@@ -1,5 +1,3 @@
-const version = 'v126';  // change this everytime you update the service worker
-                          // to force the browser to also update it.
 
 // Define cache names
 const CACHE_NAME = 'my-app-cache-v2';
