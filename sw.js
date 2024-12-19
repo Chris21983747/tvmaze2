@@ -2,12 +2,12 @@ const version = 'v126';  // change this everytime you update the service worker
                           // to force the browser to also update it.
 
 // Define cache names
-const CACHE_NAME = 'my-app-cache-v1';
-const DYNAMIC_CACHE_NAME = 'my-app-dynamic-cache-v1';
+const CACHE_NAME = 'my-app-cache-v2';
+const DYNAMIC_CACHE_NAME = 'my-app-dynamic-cache-v2';
 
 // Files to cache during install
 const STATIC_ASSETS = [
-  '/', 
+  '/tvmaze2', 
   '/tvmaze2/index.html',
   '/tvmaze2/style.css',
   '/tvmaze2/apiexample.js',
